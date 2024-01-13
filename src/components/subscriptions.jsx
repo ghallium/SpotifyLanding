@@ -37,8 +37,8 @@ const subscriptions = () => {
         </div>
         {/* Options d'abonnement */}
         {/* Premium Perso */}
-        <div className="subscription-options flex flex-wrap justify-center space-x-5 pb-3">
-          <div className="w-1/2 border-red-100 border-2 rounded-md py-6">
+        <div className="subscription-options pb-3 flex flex-wrap justify-center space-x-8">
+          <div className="w-1/4 border-red-100 border-2 rounded-md py-6 mb-4">
             <div className="w-48 bg-red-100 text-black font-bold p-1 mx-2 mb-2 rounded-sm">Gratuit Pendant 1 Mois</div>
             <div className="mx-2 flex justify-between">
               <p className="w-1/2 text-2xl font-bold mb-2">Premium Personnel</p>
@@ -57,7 +57,7 @@ const subscriptions = () => {
             </div>
           </div>
           {/* Premium étudiants */}
-          <div className="w-1/2 border-violet-200 border-2 rounded-md py-6">
+          <div className="w-1/4 border-violet-200 border-2 rounded-md py-6 mb-4">
             <div className="w-48 bg-violet-200 text-black font-bold p-1 mx-2 mb-2 rounded-sm">Gratuit Pendant 2 Mois</div>
             <div className="mx-2 flex justify-between">
               <p className="w-1/2 text-2xl font-bold mb-2">Premium Etudiants</p>
@@ -77,7 +77,7 @@ const subscriptions = () => {
             </div>
           </div>
           {/* Premium Famille */}
-          <div className="w-1/2 border-violet-200 border-2 rounded-md py-6">
+          <div className="w-1/4 border-violet-200 border-2 rounded-md py-6 mb-4">
             <div className="w-48 bg-violet-200 text-black font-bold p-1 mx-2 mb-2 rounded-sm">Gratuit Pendant 2 Mois</div>
             <div className="mx-2 flex justify-between">
               <p className="w-1/2 text-2xl font-bold mb-2">Premium Etudiants</p>
@@ -97,7 +97,7 @@ const subscriptions = () => {
             </div>
           </div>
           {/* Premium Duo */}
-          <div className="w-1/2 border-yellow-300 border-2 rounded-md py-6">
+          <div className="w-1/4 border-yellow-300 border-2 rounded-md py-6 mb-4">
             <div className="mx-2 flex justify-between">
               <p className="w-1/2 text-2xl font-bold mb-2">Premium Duo</p>
               <div className="flex flex-col">
