@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import PremiumAdvantages from "./components/premiumAdvantages";
 import Subscriptions from "./components/subscriptions";
+import Footer from "./components/footer";
 import PlaylistsImg from "./assets/playlists.png";
 
 function App() {
@@ -39,13 +40,14 @@ function App() {
               
             </div>
             <div>
-                <img src={PlaylistsImg} alt="visuels playlists Spotify" />
+                <img src={PlaylistsImg} className="w-100" alt="visuels playlists Spotify" />
               </div>
           </div>
         </div>
         <PremiumAdvantages />
         <Subscriptions />
       </div>
+      <Footer />
     </>
   );
 }

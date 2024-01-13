@@ -48,7 +48,7 @@ const subscriptions = () => {
               </div>
             </div>
             <div className="mx-4 flex flex-col">
-              <ul className="mb-32">
+              <ul className="mx-2 mb-32 list-disc">
                 <li>1 compte Spotify Premium</li>
                 <li>Annulez à tout moment</li>
               </ul>
@@ -67,7 +67,7 @@ const subscriptions = () => {
               </div>
             </div>
             <div className="mx-4 flex flex-col">
-              <ul className="mb-20">
+              <ul className="mx-2 mb-20 list-disc">
                 <li>1 compte Premium vérifié</li>
                 <li>Réduction pour les étudiants et étudiantes éligibles</li>
                 <li>Annulez à tout moment</li>
@@ -87,7 +87,7 @@ const subscriptions = () => {
               </div>
             </div>
             <div className="mx-4 flex flex-col">
-              <ul className="mb-28">
+              <ul className="mx-2 mb-28 list-disc">
                 <li>1 compte Premium vérifié</li>
                 <li>Réduction pour les étudiants et étudiantes éligibles</li>
                 <li>Annulez à tout moment</li>
@@ -107,7 +107,7 @@ const subscriptions = () => {
               </div>
             </div>
             <div className="mx-4 flex flex-col">
-              <ul className="mb-8">
+              <ul className="mx-2 mb-8 list-disc">
                 <li>2 comptes Spotify Premium</li>
                 <li>Annulez à tout moment</li>
               </ul>
