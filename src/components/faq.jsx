@@ -11,9 +11,9 @@ const faq = () => {
       </div>
       {faqData.map((q) => (
         <div className="collapse-container relative w-2/3 overflow-hidden m-auto mb-2">
-          <input type="checkbox" className='peer h-12 w-12 absolute top-4 right-3 opacity-0 cursor-pointer z-10'/>
+          <input type="checkbox" className='peer h-12 w-12 absolute top-5 right-3 opacity-0 cursor-pointer z-10'/>
           <div className="collapse-title bg-zinc-800 text-lg font-bold underline p-4"><p>{q.question}</p></div>
-          <div className="absolute top-4 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+          <div className="absolute top-5 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
