@@ -1,0 +1,32 @@
+[
+    {
+        "id": "001",
+        "question": "Comment fonctionne la période d'essai de Spotify Premium ?",
+        "answer": "Si vous n'avez encore jamais profité de Premium, il se peut que vous soyez éligible pour un essai gratuit (ou à tarif réduit). Pour les essais, vous devrez toujours indiquer un mode de paiement valide pour vous inscrire. Cette étape nous permet de confirmer votre pays ou région, et de prélever vos paiements si vous souhaitez continuer à utiliser Premium après la période d'essai. Nous vous enverrons un rappel 7 jours avant la fin de votre essai. Offre soumise à conditions et à des restrictions en fonction des pays."
+    },
+    {
+        "id": "002",
+        "question": "Comment annuler mon abonnement Premium ?",
+        "answer": "Vous pouvez facilement annuler votre abonnement Premium à tout moment sur votre page de compte en ligne. Votre abonnement Premium est maintenu jusqu'à votre prochaine date de facturation, puis votre compte rebascule vers notre service gratuit. Vous conserverez vos playlists et vos titres sauvegardés, et vous pourrez écouter de la musique avec des coupures pub lorsque votre compte repassera au service sans abonnement."
+    },
+    {
+        "id": "003",
+        "question": "Comment fonctionne l'abonnement Premium Duo ?",
+        "answer": "Premium Duo est un abonnement pour 2 personnes qui cohabitent. Il revient également à moins cher que 2 abonnements Premium Personnel plein tarif. Nous vous demanderons votre adresse pour vérifier que vous vivez au même endroit. Vous pouvez inviter une personne à rejoindre l'abonnement dès que vous l'avez souscrit. Chaque membre dispose de son propre compte Premium distinct, ce qui vous permet d'écouter de la musique simultanément. Tout le monde conserve ses titres et playlists sauvegardés. L'autre titulaire du compte ne peut pas voir ce que vous écoutez."
+    },
+    {
+        "id": "004",
+        "question": "Comment fonctionne l'abonnement Premium Famille ?",
+        "answer": "Premium Famille est un abonnement pour jusqu'à 6 membres d'une famille qui vivent sous le même toit. Il revient également moins cher que 6 abonnements Premium Personnel plein tarif. Nous vous demanderons votre adresse pour vérifier que vous vivez au même endroit. Vous pouvez inviter une personne à rejoindre l'abonnement dès que vous l'avez souscrit. Chaque membre dispose de son propre compte Premium distinct, ce qui vous permet d'écouter de la musique simultanément. Tout le monde conserve ses titres et playlists sauvegardés. Les autres titulaires du compte ne peuvent pas voir ce que vous écoutez."
+    },
+    {
+        "id": "005",
+        "question": "Comment fonctionne l'abonnement Premium Étudiants ?",
+        "answer": "Oui, si vous étudiez dans une université ou un IUT accrédités et que vous avez plus de 18 ans. Vous pouvez bénéficier de Premium Étudiants pendant 4 ans maximum."
+    },
+    {
+        "id": "006",
+        "question": "Combien coûte Spotify Premium dans le pays suivant : France ?",
+        "answer": "Dans le pays suivant : France, les prix de Spotify Premium varient en fonction de l'abonnement Premium choisi. L'abonnement Premium Personnel coûte 10,99 € par mois, l'abonnement Premium Duo coûte 14,99 € par mois, l'abonnement Premium Famille coûte 17,99 € par mois et l'abonnement Premium Étudiants coûte 5,99 € par mois. Si vous n'avez encore jamais eu d'abonnement Premium, il se peut que vous soyez éligible pour un essai gratuit (ou à tarif réduit). Offre soumise à conditions et à des restrictions en fonction des pays."
+    }
+]

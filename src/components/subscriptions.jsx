@@ -4,7 +4,7 @@ const subscriptions = () => {
   return (
     // Arguments abonnements
 
-    <div className="bg-zinc-900 text-white">
+    <div className="bg-zinc-900 text-white py-3">
       <div className="w-2/3 m-auto">
         <h3 className="text-4xl font-bold mb-2 text-center">
           Des abonnements abordables pour chaque situation

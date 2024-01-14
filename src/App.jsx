@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import PremiumAdvantages from "./components/premiumAdvantages";
 import Subscriptions from "./components/subscriptions";
+import Faq from "./components/faq";
 import Footer from "./components/footer";
 import PlaylistsImg from "./assets/playlists.png";
 
@@ -46,6 +47,7 @@ function App() {
         </div>
         <PremiumAdvantages />
         <Subscriptions />
+        <Faq />
       </div>
       <Footer />
     </>
