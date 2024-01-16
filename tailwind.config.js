@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       borderWidth: {
-        '1': '1px'
+        '1': '1px',
       },
       width: {
         '128': '32rem',
+      },
+      fontSize: {
+        'xxs': '9px',
       },
       screens: {
         'mobile': '320px'

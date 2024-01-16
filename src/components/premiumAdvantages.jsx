@@ -6,7 +6,7 @@ const premiumAdvantages = () => {
         <div className="premium-advantages bg-zinc-900 py-5">
             <div className="text-center text-white py-3">
                 <h2 className="text-2xl lg:text-4xl font-bold mb-2">Vivez la différence</h2>
-                <p className="text-lg lg:text-2xl mobile:w-4/5 lg:w-2/5 m-auto mb-2">Passez à Premium et bénéficiez d'un contrôle total sur votre musique. Annulez à tout moment</p>
+                <p className="text-base lg:text-2xl mobile:w-4/5 lg:w-2/5 m-auto mb-2">Passez à Premium et bénéficiez d'un contrôle total sur votre musique. Annulez à tout moment</p>
             </div>
             <table className="table-fixed text-white text-sm lg:text-base m-auto">
                 <thead>
