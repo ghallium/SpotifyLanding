@@ -47,12 +47,12 @@ const footer = () => {
 
                 <p>France</p></div>
             <div className="low-footer w-11/12 pb-4 lg:pb-0 lg:w-2/3 m-auto text-zinc-400 text-xxs lg:text-sm flex flex-col lg:flex-row">
-                <a className="py-2 lg:py-0">Légal</a>
-                <a className="py-2 lg:py-0">Centre de confidentialité</a>
-                <a className="py-2 lg:py-0">Protection des données</a>
+                <a href="https://www.spotify.com/fr/legal/" className="py-2 lg:py-0">Légal</a>
+                <a href="https://www.spotify.com/fr/privacy/" className="py-2 lg:py-0">Centre de confidentialité</a>
+                <a href="https://www.spotify.com/fr/legal/privacy-policy/" className="py-2 lg:py-0">Protection des données</a>
                 <a className="py-2 lg:py-0">Paramètres des cookies</a>
-                <a className="py-2 lg:py-0">À propos des pubs</a>
-                <a className="py-2 lg:py-0">Accessibilité</a>
+                <a href="https://www.spotify.com/fr/legal/privacy-policy/#s3" className="py-2 lg:py-0">À propos des pubs</a>
+                <a href="https://www.spotify.com/fr/accessibility/" className="py-2 lg:py-0">Accessibilité</a>
             </div>
         </div>
   )
