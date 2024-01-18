@@ -5,6 +5,7 @@ import Faq from "./components/faq";
 import Footer from "./components/footer";
 import PlaylistsImg from "./assets/playlists.png";
 
+
 function App() {
   return (
     <>
