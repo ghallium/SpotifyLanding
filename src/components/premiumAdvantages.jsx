@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const premiumAdvantages = () => {
   return (
@@ -19,33 +19,70 @@ const premiumAdvantages = () => {
                 <tbody>
                     <tr className="h-20 border-b-1 border-white">
                         <th className="font-normal text-left">Musique sans pub</th>
-                        <th className="font-normal">Non</th>
-                        <th className="bg-[#8a2d84] border-l-2 border-zinc-900">Oui</th>
+                        <th className="font-normal">-</th>
+                        <th className="bg-[#8a2d84] border-l-2 border-zinc-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-6 h-6 mx-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+
+                        </th>
                     </tr>
                     <tr className="h-20 border-b-1 border-white">
                         <th className="font-normal text-left">Télécharger pour écouter en mode hors connexion</th>
-                        <th className="font-normal">Non</th>
-                        <th className="bg-[#773281] border-l-2 border-zinc-900">Oui</th>
+                        <th className="font-normal">-</th>
+                        <th className="bg-[#773281] border-l-2 border-zinc-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-6 h-6 mx-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                        </th>
                     </tr>
                     <tr className="h-20 border-b-1 border-white">
                         <th className="font-normal text-left">Choisissez l'ordre de vos titres</th>
-                        <th className="font-normal">Non</th>
-                        <th className="bg-[#563a7c] border-l-2 border-zinc-900">Oui</th>
+                        <th className="font-normal">-</th>
+                        <th className="bg-[#563a7c] border-l-2 border-zinc-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-6 h-6 mx-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                        </th>
                     </tr>
                     <tr className="h-20 border-b-1 border-white">
                         <th className="font-normal text-left">Qualité sonore supérieure</th>
-                        <th className="font-normal">Non</th>
-                        <th className="bg-[#4f3c7b] border-l-2 border-zinc-900">Oui</th>
+                        <th className="font-normal">-</th>
+                        <th className="bg-[#4f3c7b] border-l-2 border-zinc-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-6 h-6 mx-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                        </th>
                     </tr>
                     <tr className="h-20 border-b-1 border-white">
                         <th className="font-normal text-left">Ecoutez avec vos proches en temps réel</th>
-                        <th className="font-normal">Non</th>
-                        <th className="bg-[#3f4078] border-l-2 border-zinc-900">Oui</th>
+                        <th className="font-normal">-</th>
+                        <th className="bg-[#3f4078] border-l-2 border-zinc-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-6 h-6 mx-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                        </th>
                     </tr>
                     <tr className="h-20 border-b-1 border-white">
                         <th className="font-normal text-left">Organisez la file d'attente de lecture</th>
-                        <th className="font-normal">Non</th>
-                        <th className="bg-[#2e4476] border-l-2 border-zinc-900">Oui</th>
+                        <th className="font-normal">-</th>
+                        <th className="bg-[#2e4476] border-l-2 border-zinc-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" 
+                            className="w-6 h-6 mx-auto">
+                                <path strokeLinecap="round" strokeLinejoin="round" 
+                                d="M9 12.75 11.25 15 15 9.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                            </svg>
+                        </th>
                     </tr>
                 </tbody>
             </table>

@@ -1,4 +1,8 @@
-import React from "react";
+import AmexImg from "../assets/amex.svg";
+import CBImg from "../assets/cartebleue.svg";
+import MastercardImg from "../assets/mastercard.png";
+import PaypalImg from "../assets/paypal.png";
+import VisaImg from "../assets/visa.svg"
 
 const subscriptions = () => {
   return (
@@ -14,8 +18,12 @@ const subscriptions = () => {
           votre téléphone, votre enceinte et d'autres appareils. Payez de
           différentes manières. Annulez à tout moment.
         </p>
-        <div className="payment-options text-center mb-4">
-          Moyens de paiement
+        <div className="payment-options mb-4 flex justify-center items-center space-x-5">
+            <div className="h-8 w-8 bg-white rounded-sm"><img src={VisaImg}/></div>
+            <div className="h-8 w-8 bg-white rounded-sm"><img src={MastercardImg} /></div>
+            <div className="h-8 w-8 bg-white rounded-sm"><img src={AmexImg} /></div>
+            <div className="h-8 w-8 bg-white rounded-sm"><img src={CBImg} /></div>
+            <div className="h-8 w-8 bg-white rounded-sm"><img src={PaypalImg} /></div>
         </div>
         {/* Liste arguments */}
         <div className="flex items-center justify-center px-4 lg:px-12 py-1 lg:py-2 mb-6">
