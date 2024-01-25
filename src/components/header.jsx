@@ -25,10 +25,10 @@ const Header = () => {
 
         {/* Menu items */}
         <nav className={`lg:flex lg:items-center text-white font-bold ${isMenuOpen ? "w-full h-screen flex flex-col items-start text-3xl font-bold mt-4 lg:mt-0" : "hidden"} lg:ml-auto`}>
-          <a className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Premium</a>
-          <a className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Assistance</a>
-          <a className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Télécharger</a>
-          <a className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Profil</a>
+          <a href="https://www.spotify.com/fr/premium/?ref=spotifycom_header_premium_button" className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Premium</a>
+          <a href="https://support.spotify.com/" className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Assistance</a>
+          <a href="https://www.spotify.com/fr/download/" className="py-4 lg:py-0 lg:px-5 hover:text-greenspot">Télécharger</a>
+          
         </nav>
       </header>
     </div>

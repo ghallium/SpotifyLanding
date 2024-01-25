@@ -32,7 +32,7 @@ const subscriptions = () => {
               <h4 className="font-bold mb-4">
                 Avantages inclus dans tous les abonnements Premium
               </h4>
-              <ul className="mx-0 lg:mx-20">
+              <ul className="mx-0 lg:mx-20 list-disc">
                 <li>Musique sans pub</li>
                 <li>Télécharger pour écouter en mode hors-connexion</li>
                 <li>Choisissez l'ordre de vos titres</li>
@@ -60,7 +60,7 @@ const subscriptions = () => {
                 <li>1 compte Spotify Premium</li>
                 <li>Annulez à tout moment</li>
               </ul>
-              <div className="w-52 sm:w-64 m-auto bg-red-200 rounded-3xl p-3 mb-4 hover:scale-105"><p className="text-black font-bold text-center">Essai gratuit de 1 Mois</p></div>
+              <div className="w-52 sm:w-64 m-auto bg-red-200 rounded-3xl p-3 mb-4 hover:scale-105 cursor-pointer"><p className="text-black font-bold text-center">Essai gratuit de 1 Mois</p></div>
               <p className="text-xs">Gratuit pendant 1 mois, puis 10,99 € par mois. Offre uniquement disponible si vous n'avez jamais essayé Premium. Offre soumise à conditions.</p>
             </div>
           </div>
@@ -80,7 +80,7 @@ const subscriptions = () => {
                 <li>Réduction pour les étudiants et étudiantes éligibles</li>
                 <li>Annulez à tout moment</li>
               </ul>
-              <div className="w-52 sm:w-64 m-auto bg-violet-300 rounded-3xl p-3 mb-4 hover:scale-105"><p className="text-black font-bold text-center">Essai gratuit de 2 mois</p></div>
+              <div className="w-52 sm:w-64 m-auto bg-violet-300 rounded-3xl p-3 mb-4 hover:scale-105 cursor-pointer"><p className="text-black font-bold text-center">Essai gratuit de 2 mois</p></div>
               <p className="text-xs">Offre réservée aux personnes inscrites au sein d'un établissement d'enseignement supérieur accrédité. Offre soumise à conditions.</p>
             </div>
           </div>
@@ -100,7 +100,7 @@ const subscriptions = () => {
                 <li>Réduction pour les étudiants et étudiantes éligibles</li>
                 <li>Annulez à tout moment</li>
               </ul>
-              <div className="w-52 sm:w-64 m-auto bg-sky-200 rounded-3xl p-3 mb-4 hover:scale-105"><p className="text-black font-bold text-center">Obtenez Premium Famille</p></div>
+              <div className="w-52 sm:w-64 m-auto bg-sky-200 rounded-3xl p-3 mb-4 hover:scale-105 cursor-pointer"><p className="text-black font-bold text-center">Obtenez Premium Famille</p></div>
               <p className="text-xs">Pour jusqu'à 6 membres d'une famille résidant à la même adresse. Offre soumise à conditions.</p>
             </div>
           </div>
@@ -119,7 +119,7 @@ const subscriptions = () => {
                 <li>2 comptes Spotify Premium</li>
                 <li>Annulez à tout moment</li>
               </ul>
-              <div className="w-52 sm:w-64 m-auto bg-yellow-300 rounded-3xl p-3 mb-4 hover:scale-105"><p className="text-black font-bold text-center">Obtenez Premium Duo</p></div>
+              <div className="w-52 sm:w-64 m-auto bg-yellow-300 rounded-3xl p-3 mb-4 hover:scale-105 cursor-pointer"><p className="text-black font-bold text-center">Obtenez Premium Duo</p></div>
               <p className="text-xs">Pour les couples résidant à la même adresse. Offre soumise à conditions.</p>
             </div>
           </div>
