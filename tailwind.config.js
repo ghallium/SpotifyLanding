@@ -17,9 +17,13 @@ export default {
         'xxs': '9px',
       },
       screens: {
-        'mobile': '320px'
+        'mobile': '320px',
+      },
+      colors: {
+        'greenspot': '#1DB954',
       }
     },
+    
   },
   plugins: [
     

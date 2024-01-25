@@ -26,12 +26,12 @@ function App() {
                   moment.
                 </p>
                 <div className="call-to-action flex flex-col mobile:items-center lg:flex-row lg:space-x-3 py-5">
-                  <div className="bg-red-200 rounded-3xl p-3 flex items-center mobile:mb-2 mobile:w-64">
+                  <div className="bg-red-200 rounded-3xl p-3 flex items-center mobile:mb-2 mobile:w-64 hover:bg-red-100 hover:scale-105">
                     <span className="text-black font-bold">
                       Obtenez Premium Personnel
                     </span>
                   </div>
-                  <div className="bg-black border-2 border-white rounded-3xl p-3 mobile:mb-2 w-64 lg:w-80 mobile:text-center">
+                  <div className="bg-black border-2 border-white rounded-3xl p-3 mobile:mb-2 w-64 lg:w-80 mobile:text-center hover:scale-105">
                     <span className="font-bold">
                       Voir tous les abonnements Premium
                     </span>
