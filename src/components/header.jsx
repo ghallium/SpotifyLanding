@@ -83,6 +83,25 @@ const Header = () => {
           >
             Télécharger
           </a>
+          <div
+            className={`separator mx-4 lg:mx-0 ${
+              isMenuOpen ? "rotate-90 transform" : "transform"
+            }`}
+          >
+            <span className="font-normal">|</span>
+          </div>
+          <a
+            href="https://www.spotify.com/fr/signup/"
+            className="py-4 lg:py-0 lg:px-5 hover:text-greenspot"
+          >
+            S'inscrire
+          </a>
+          <a
+            href="https://www.spotify.com/fr/login/?continue=%2Ffr%2Fpremium%2F"
+            className="py-4 lg:py-0 lg:px-5 hover:text-greenspot"
+          >
+            Connexion
+          </a>
         </nav>
       </header>
     </div>
