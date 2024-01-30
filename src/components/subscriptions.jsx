@@ -19,11 +19,11 @@ const subscriptions = () => {
           différentes manières. Annulez à tout moment.
         </p>
         <div className="payment-options mb-4 flex justify-center items-center space-x-5">
-            <div className="h-8 w-8 bg-white rounded-sm"><img src={VisaImg}/></div>
-            <div className="h-8 w-8 bg-white rounded-sm"><img src={MastercardImg} /></div>
-            <div className="h-8 w-8 bg-white rounded-sm"><img src={AmexImg} /></div>
-            <div className="h-8 w-8 bg-white rounded-sm"><img src={CBImg} /></div>
-            <div className="h-8 w-8 bg-white rounded-sm"><img src={PaypalImg} /></div>
+            <div className="h-12 w-12 bg-white rounded-sm flex justify-center items-center"><img src={VisaImg} className="w-8" alt="logo Visa"/></div>
+            <div className="h-12 w-12 bg-white rounded-sm flex justify-center items-center"><img src={MastercardImg} className="w-8" alt="logo Mastercard"/></div>
+            <div className="h-12 w-12 bg-white rounded-sm flex justify-center items-center"><img src={AmexImg} className="w-8" alt="logo Amex"/></div>
+            <div className="h-12 w-12 bg-white rounded-sm flex justify-center items-center"><img src={CBImg} className="w-8" alt="logo CB"/></div>
+            <div className="h-12 w-12 bg-white rounded-sm flex justify-center items-center"><img src={PaypalImg} className="w-8" alt="PayPal"/></div>
         </div>
         {/* Liste arguments */}
         <div className="flex items-center justify-center px-4 lg:px-12 py-1 lg:py-2 mb-6">
@@ -85,7 +85,7 @@ const subscriptions = () => {
             </div>
           </div>
           {/* Premium Famille */}
-          <div className="w-11/12 lg:w-1/4 m-auto lg:mx-0 border-sky-200 border-2 rounded-md py-6 mb-4">
+          <div className="w-11/12 lg:w-1/4 m-auto lg:mx-0 lg:pt-8 border-sky-200 border-2 rounded-md py-6 mb-4">
             
             <div className="mx-2 flex justify-between">
               <p className="w-2/3 lg:w-1/2 text-xl lg:text-2xl font-bold mb-2">Premium Famille</p>
@@ -95,7 +95,7 @@ const subscriptions = () => {
               </div>
             </div>
             <div className="mx-4 flex flex-col">
-              <ul className="mx-2 mb-6 lg:mb-28 list-disc">
+              <ul className="mx-2 mb-6 lg:mb-32 list-disc">
                 <li>1 compte Premium vérifié</li>
                 <li>Réduction pour les étudiants et étudiantes éligibles</li>
                 <li>Annulez à tout moment</li>

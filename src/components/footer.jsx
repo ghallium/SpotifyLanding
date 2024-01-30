@@ -46,13 +46,13 @@ const footer = () => {
             </svg>
 
                 <p>France</p></div>
-            <div className="low-footer w-11/12 pb-4 lg:pb-0 lg:w-2/3 m-auto text-zinc-400 text-xxs lg:text-sm flex flex-col lg:flex-row">
-                <a href="https://www.spotify.com/fr/legal/" className="py-2 lg:py-0">Légal</a>
-                <a href="https://www.spotify.com/fr/privacy/" className="py-2 lg:py-0">Centre de confidentialité</a>
-                <a href="https://www.spotify.com/fr/legal/privacy-policy/" className="py-2 lg:py-0">Protection des données</a>
+            <div className="low-footer w-11/12 pb-4 lg:pb-2 lg:w-2/3 m-auto text-zinc-400 text-xxs lg:text-sm flex flex-col lg:flex-row lg:space-x-5">
+                <a href="https://www.spotify.com/fr/legal/" className="py-2 lg:py-0 hover:text-greenspot">Légal</a>
+                <a href="https://www.spotify.com/fr/privacy/" className="py-2 lg:py-0  hover:text-greenspot">Centre de confidentialité</a>
+                <a href="https://www.spotify.com/fr/legal/privacy-policy/" className="py-2 lg:py-0  hover:text-greenspot">Protection des données</a>
                 <a className="py-2 lg:py-0">Paramètres des cookies</a>
-                <a href="https://www.spotify.com/fr/legal/privacy-policy/#s3" className="py-2 lg:py-0">À propos des pubs</a>
-                <a href="https://www.spotify.com/fr/accessibility/" className="py-2 lg:py-0">Accessibilité</a>
+                <a href="https://www.spotify.com/fr/legal/privacy-policy/#s3" className="py-2 lg:py-0  hover:text-greenspot">À propos des pubs</a>
+                <a href="https://www.spotify.com/fr/accessibility/" className="py-2 lg:py-0  hover:text-greenspot">Accessibilité</a>
             </div>
         </div>
   )
